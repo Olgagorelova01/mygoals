@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
     const [goal, setGoal] = useState(0);
-    const {id, name, description, source, image} = data[goal];
+    const {name, description, source, image} = data[goal];
     const [showMore, setShowMore] = useState(false);
 
   
