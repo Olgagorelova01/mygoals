@@ -42,7 +42,7 @@ function App() {
                 </p>
             </div>
             <div className="container">
-                <button>{source}</button>
+                <button onClick={() => window.open (source)}>Visit</button>
             </div>
             <div className="btn container">
                 <button onClick={previousGoal}>Previous</button>
